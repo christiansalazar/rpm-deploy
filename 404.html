@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirigiendo...</title>
+  <script>
+    sessionStorage.redirect = location.href;
+    location.replace(location.origin + '/');
+  </script>
+</head>
+<body>
+  <p>Redirigiendo...</p>
+</body>
+</html>
